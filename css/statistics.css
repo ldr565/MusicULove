@@ -1,0 +1,25 @@
+.content {
+	margin-top: 20px;
+	height: 596px;
+	text-align: center;
+	padding: 20px;
+}
+
+#statistics {
+	background: rgba(0, 255, 190, .4);
+	border: 1px solid rgba(0, 255, 190, .8);
+	opacity: 1;
+	cursor: default;
+}
+
+.statistics-place {
+	height: 580px;
+	color: white;
+	background: rgba(0, 255, 190, .1);
+	border-radius: 50px 0;
+}
+
+h1 {
+	color: rgb(0, 255, 190);
+	margin: 10px 250px;
+}

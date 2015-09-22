@@ -1,0 +1,79 @@
+.content {
+	margin-top: 20px;
+	height: 596px;
+	text-align: center;
+	padding: 20px;
+}
+
+#index {
+	background: rgba(86, 175, 193, .4);
+	border: 1px solid rgba(86, 175, 193, .8);
+	opacity: 1;
+	cursor: default;
+}
+
+.index-place {
+	height: 580px;
+	color: white;
+	background: rgba(86, 175, 193, .1);
+	border-radius: 50px 0;
+}
+
+h1 {
+	color: rgb(86, 175, 193);
+	margin: 10px 290px;
+}
+
+#news {
+	width: 80%;
+	height: 359px;
+	margin-left: 10%;
+	color: white;
+	font-size: 20px;
+	overflow: auto;
+}
+
+#addPost {
+}
+
+#newPostHeader 
+{
+	text-align: center;
+	width: 500px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255 ,255, .5);
+}
+
+#newPostText {
+	text-align: center;
+	height: 100px;
+	width: 500px;
+}
+
+#postButton {
+	margin: 5px 0;
+}
+
+.date {
+	color: rgb(55, 55, 55);
+	font-size: 8pt;
+	font-style: oblique;
+	float: right;
+	background: rgba(255, 255, 255, .2);
+}
+
+.postHeader 
+{
+	font-size: 18pt;
+	color: rgb(222, 222, 222);
+	border-bottom: 2px solid rgba(255, 255, 255, .3);
+
+}
+
+.post {
+	background-color: rgba(222, 222, 222, .1);
+	margin-top: 5px;
+	background: rgba(86, 175, 193, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	border-left: 1px solid rgba(255, 255, 255, .3);
+}

@@ -93,12 +93,10 @@ function playerControl(e)
 	}
 	else if(keyCode == left)
 	{
-		//document.getElementById('player-test').pause();
 		document.getElementById('player-test').currentTime -= 15;
 	}
 	else if(keyCode == right)
 	{
-		//document.getElementById('player-test').pause();
 		document.getElementById('player-test').currentTime += 15;
 	}	
 	else if(keyCode == up)

@@ -262,6 +262,10 @@
     font-family: fantasy;
 }
 
+input {
+    outline: none;
+}
+
 input#dur {
 	border-radius: 1000px;
 	background: rgba(255,255,255,.3);

@@ -409,34 +409,6 @@ input[id=vertical]:active::-moz-range-thumb {
 	background: rgba(255, 255, 255, .3);
 }
 
-/*
-.volumeButton {
-	border-radius: 100px;
-	width: 20px;
-	height: 20px;
-	color: #f2e5ee;
-	cursor: pointer;
-}
-
-#volumeButton-plus {
-	margin-top: -10px; 
-	margin-bottom: 10px;
-	background: url("img/volume+.png") center;
-}
-
-#volumeButton-minus {
-	background: url("img/volume-.png") center;
-}
-
-#volumeButton-plus:active {
-	background: url("img/volume+active.png") center;
-}
-
-#volumeButton-minus:active {
-	background: url("img/volume-active.png") center;
-}
-*/
-
 .player-heart {
 	padding-top: 15px;	
 	float: left;

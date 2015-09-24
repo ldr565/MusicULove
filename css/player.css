@@ -173,13 +173,6 @@
 	background: rgba(0, 0, 0, .3);
 	border-radius: 100px;
   -webkit-transition: .5s; transition: .5s;
-    -moz-user-select: text;
-    -o-user-select:text;
-    -khtml-user-select: text;
-    -webkit-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
-
 }
 
 .author {

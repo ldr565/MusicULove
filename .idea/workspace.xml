@@ -24,31 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="trackList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/trackList.js">
+      <file leaf-file-name="player.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/player.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.70016474" vertical-offset="5202" max-vertical-offset="8568">
+              <caret line="331" column="47" selection-start-line="331" selection-start-column="47" selection-end-line="331" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play_tracks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/play_tracks.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player-general.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/player-general.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47611204" vertical-offset="1326" max-vertical-offset="4522">
-              <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="96" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -60,8 +50,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/player.html" />
-        <option value="$PROJECT_DIR$/css/player.css" />
         <option value="$PROJECT_DIR$/js/player-general.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/player.css" />
       </list>
     </option>
   </component>
@@ -297,18 +288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/player.css">
+    <entry file="file://$PROJECT_DIR$/js/player-general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.92421746" vertical-offset="6902" max-vertical-offset="8840">
-          <caret line="373" column="16" selection-start-line="373" selection-start-column="16" selection-end-line="373" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/trackList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47611204" vertical-offset="1326" max-vertical-offset="4522">
+          <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="96" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -321,10 +304,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/player-general.js">
+    <entry file="file://$PROJECT_DIR$/js/trackList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47611204" vertical-offset="1326" max-vertical-offset="4522">
-          <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="96" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/player.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70016474" vertical-offset="5202" max-vertical-offset="8568">
+          <caret line="331" column="47" selection-start-line="331" selection-start-column="47" selection-end-line="331" selection-end-column="47" />
           <folding />
         </state>
       </provider>

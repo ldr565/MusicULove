@@ -86,8 +86,7 @@ function playerControl(e)
     {
         ctrlKeyPushed = !ctrlKeyPushed;
     }
-
-	if(keyCode == spacebar)
+    else if(keyCode == spacebar)
 	{
 		if(document.getElementById('play').style.display == 'none')
 		{
@@ -97,7 +96,6 @@ function playerControl(e)
 		{
 			$("#play").click();
 		}
-		e.preventDefault(); 
 	}
 	else if(keyCode == left)
 	{
@@ -105,10 +103,11 @@ function playerControl(e)
         {
             changeTrackPrev();
             e.preventDefault();
+            return;
         }
-
-		document.getElementById('player-test').currentTime -= 15;
-        e.preventDefault();
+        else{
+            document.getElementById('player-test').currentTime -= 15;
+        }
 	}
 	else if(keyCode == right)
 	{
@@ -116,21 +115,21 @@ function playerControl(e)
         {
             changeTrackNext();
             e.preventDefault();
+            return;
         }
-
-		document.getElementById('player-test').currentTime += 15;
-        e.preventDefault();
+        else{
+            document.getElementById('player-test').currentTime += 15;
+        }
 	}	
 	else if(keyCode == up)
 	{
 		volumeUp();
-		e.preventDefault(); 
 	}
 	else if(keyCode == down)
 	{
 		volumeDown();
-		e.preventDefault(); 
 	}
+    e.preventDefault();
 }
 
 var tempFunction = playerControl;
@@ -237,6 +236,12 @@ function changeVolume()
 function setMediumVolume()
 {
 	document.getElementById('player-test').volume = .5;
+}
+
+function setDefaultPlayer()
+{
+	setMediumVolume();
+	document.getElementById('dur').value = 0;
 }
 
 function volumeUp()

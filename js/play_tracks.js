@@ -51,7 +51,26 @@ var playTrack = function(style, i)
 	}
 }
 
-function changeTrack()
+function changeTrackNext()
 {
-	playTrack(previousTrackStyle, previousTrackNumber + 1);
+    if(previousTrackNumber < tracks[previousTrackStyle].tracksCount)
+    {
+        playTrack(previousTrackStyle, previousTrackNumber + 1);
+    }
+    else
+    {
+        playTrack(previousTrackStyle, 1);
+    }
+}
+
+function changeTrackPrev()
+{
+    if(previousTrackNumber > 1)
+    {
+        playTrack(previousTrackStyle, previousTrackNumber - 1);
+    }
+    else
+    {
+        playTrack(previousTrackStyle, tracks[previousTrackStyle].tracksCount);
+    }
 }

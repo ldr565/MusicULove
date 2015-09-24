@@ -2,6 +2,7 @@ var previousStyle = undefined;
 
 function makeTracklist(style, tracksCount)
 {
+    tracks[style].tracksCount = tracksCount;
 	var divTagBegin = "<div";
 	var divClass = " class=\"tracklist-row\" ";
 
@@ -70,6 +71,8 @@ function clickPause()
 	document.getElementById('pause').clickPlayed = false;
 }
 
+var ctrlKeyPushed = false;
+
 function playerControl(e)
 {
 	keyCode = e.keyCode;
@@ -78,6 +81,11 @@ function playerControl(e)
 	var right = 39;
 	var up = 38;
 	var down = 40;
+
+    if(e.ctrlKey)
+    {
+        ctrlKeyPushed = !ctrlKeyPushed;
+    }
 
 	if(keyCode == spacebar)
 	{
@@ -93,11 +101,23 @@ function playerControl(e)
 	}
 	else if(keyCode == left)
 	{
+        if(ctrlKeyPushed)
+        {
+            changeTrackPrev();
+            e.preventDefault();
+        }
+
 		document.getElementById('player-test').currentTime -= 15;
         e.preventDefault();
 	}
 	else if(keyCode == right)
 	{
+        if(ctrlKeyPushed)
+        {
+            changeTrackNext();
+            e.preventDefault();
+        }
+
 		document.getElementById('player-test').currentTime += 15;
         e.preventDefault();
 	}	
@@ -131,19 +151,6 @@ function antiPlayerControlOff()
 {
 	playerControl = tempFunction
 }
-
-/*
-function continuePlaying(keyCode)
-{
-	var left = 37;
-	var right = 39;
-
-	if((keyCode == left || keyCode == right) && document.getElementById('pause').clickPlayed)
-	{
-		document.getElementById('player-test').play();
-	}
-}
-*/
 
 function mDur()
 {
@@ -230,12 +237,6 @@ function changeVolume()
 function setMediumVolume()
 {
 	document.getElementById('player-test').volume = .5;
-}
-
-function setDefaultPlayer()
-{
-	setMediumVolume();
-	document.getElementById('dur').value = 0;
 }
 
 function volumeUp()

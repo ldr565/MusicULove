@@ -280,16 +280,14 @@ var changeBackground = function(number, link){
 }
 
 window.onload = function() {
-
     document.getElementById('background1').onclick = function() {
         changeBackground(1, "http://cs627426.vk.me/v627426258/17548/ehNHUijS6Kc.jpg");
     };
-
     document.getElementById('background2').onclick = function() {
         changeBackground(2,"http://cs627426.vk.me/v627426258/17552/3rzvtzjKUmU.jpg");
     };
-
     document.getElementById('background3').onclick = function() {
         changeBackground(3, "http://cs627426.vk.me/v627426258/1753e/RMaxELvDQBA.jpg");
     };
+    $('#background1').click();
 }

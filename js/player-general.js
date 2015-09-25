@@ -265,3 +265,31 @@ function volumeDown()
 	document.getElementById('player-test').volume -= 1/16;
  	showVolume();
 }
+
+var changeBackground = function(number, link){
+    document.body.style.backgroundImage = "url("+link+")";
+    for(var i = 1; i < 4; i++)
+    {
+        if(i==number){
+            document.getElementById('background'+number).className +=  " currentBackground";
+        }
+        else{
+            document.getElementById('background'+i).className = "footer-button";
+        }
+    }
+}
+
+window.onload = function() {
+
+    document.getElementById('background1').onclick = function() {
+        changeBackground(1, "http://cs627426.vk.me/v627426258/17548/ehNHUijS6Kc.jpg");
+    };
+
+    document.getElementById('background2').onclick = function() {
+        changeBackground(2,"http://cs627426.vk.me/v627426258/17552/3rzvtzjKUmU.jpg");
+    };
+
+    document.getElementById('background3').onclick = function() {
+        changeBackground(3, "http://cs627426.vk.me/v627426258/1753e/RMaxELvDQBA.jpg");
+    };
+}

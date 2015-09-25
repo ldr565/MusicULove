@@ -1,7 +1,8 @@
 body {
 	width: 1296px;
 	height: 669px;
-	background: url(background.bmp) bottom no-repeat fixed;
+    background:  bottom no-repeat fixed;
+	background-image: url('background1.jpg');
 	background-size: cover;
 	font-family: verdana;
 	margin: auto;
@@ -11,6 +12,7 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-transition: .25s; transition: .25s;
 }
 
 .footer {
@@ -29,6 +31,7 @@ body {
 	border-radius: 25px 0 25px 0 ;
 	background: rgba(255,255,255,.8);
 	opacity: .4;
+    float: left;
 }
 
 .footer-label:hover {
@@ -45,6 +48,56 @@ body {
 	height: 23px;
 	width: 23px;
 	text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+}
+
+.footer-buttons {
+    float: right;
+    background: rgba(255,255,255,.2);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.footer-button {
+    border-radius: 100px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin: 4px;
+    margin-top: 5px;
+    border: rgba(255,255,255,.6) 2px solid;
+    opacity: 0.4;
+    cursor: pointer;
+    -webkit-transition: .5s; transition: .5s;
+}
+
+.footer-button:hover {
+    -webkit-transition: .5s; transition: .5s;
+    opacity: .7;
+}
+
+.footer-button:active {
+    opacity: 1;
+    -webkit-transition: .25s; transition: .25s;
+}
+
+#background1 {
+    background: rgb(41,215,243);
+}
+
+#background2 {
+    background: rgb(247,103,48);
+}
+
+#background3 {
+    background: rgb(23,61,95);
+}
+
+.currentBackground {
+    opacity: 1;
+}
+
+.currentBackground:hover {
+    opacity: 1;
 }
 
 .head {

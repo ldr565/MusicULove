@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index-general.js"></script>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<title>Music U Love|index</title>
+</head>
+<body>
+	<div class="footer">
+		<div class ="footer-label">
+			<img id="music-img" src="css/img/music-img.png" alt="hkjhkj"/>U<img id="footer-label-heart" src="css/img/footer-heart.png" alt="jknkjnkjn"/>
+		</div>
+	</div>
+	<div class="head">
+		<a href="player.html">
+			<div id="head-label">
+				<div class="head-label-text">Music You Love</div>
+			</div>
+		</a>
+		<div class = "head-bottons">
+			<div id="index" class ="head-botton" title="home">
+				<img id="index-img" src="css/img/home.png" alt="index"/>
+			</div>
+			<a href="statistics.html">
+				<div id="statistics" class ="head-botton" title="statistics">
+					<img id="diagram-img" src="css/img/diagram.png" alt="statistics"/>
+				</div>
+			</a>
+			<a href="help.html">
+				<div id="help" class ="head-botton" title="help">
+					<img id="question-img" src="css/img/question.png" alt="help" />
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="side-container left-side-radius">
+			<div class="left-title">
+				The most <br>
+				favorite tracks
+			</div>
+			<div class="left-buttons">
+				<div class="left-button">for all time</div>
+				<div class="left-button">for the month</div>
+				<div class="left-button">for the week</div>
+			</div>
+			<ol class="top-list">
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						VillaNaranjos 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Granadella (Original Mix)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">Moguai</li>
+					<li>-</li>
+					<li class="top-list-name">Optinuum (Original Mix)</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Andy Caldwell Feat. Lisa Donnelly
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Melody Like A Drum (Audio Junkies Dub)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Above & Beyond Vs. Max Graham & Ana Criado
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Anphonic Matters (Estiva & Daniel Kandi Mashup)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						The Blizzard & Daniel Van Sand Feat. Julie Thompson 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Made For You (Gal Abutbul Remix)
+					</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div class="central-container">
+			<div class="content">
+				<div class="index-place">
+					<h1>
+						Home
+					</h1>
+					<div id = "addPost">
+						<input type="text" id ="newPostHeader" value="Header" maxlength = 35  onclick = "headerClearField()" onmouseover="headerDefaultField()"/><br>
+						<input type="text" id ="newPostText" value="Write here your post" onclick = "textClearField()" onmouseover="textDefaultField()" onkeypress="addNewPostByKey(event)"/>
+						<br>
+						<input type="button" id ="postButton" value="Post" onclick="addNewPost()"/>
+					</div>
+					<div id = "news">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="side-container right-side-radius ">
+			<div class= "right-buttons">
+				<div class="sign_in">
+					Account name
+					<input maxlength = 25 id="username"/>
+					Password
+					<input maxlength = 25 id="password" type="password" />
+					<div id="sign_in-button">Sign in</div>
+				</div>
+				<div class="join_us">
+					<a href="registration.html">
+						<div id="join_us-button">Join us</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

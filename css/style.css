@@ -1,0 +1,383 @@
+body {
+	width: 1296px;
+	height: 669px;
+    background:  bottom no-repeat fixed;
+	background-size: cover;
+	font-family: verdana;
+	margin: auto;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: .25s; transition: .25s;
+}
+
+.footer {
+	background-color: rgba(255, 255, 255, .2);
+	height: 37px;
+}
+
+.footer-label {
+	height: 37px;
+	width: 68px;
+	text-align: center;
+	margin-left: 597px;
+	font-size: 30px;
+	color: rgb(190,190,190);
+	cursor: default;
+	border-radius: 25px 0 25px 0 ;
+	background: rgba(255,255,255,.8);
+	opacity: .4;
+    float: left;
+}
+
+.footer-label:hover {
+	opacity: 1.0;
+}
+
+#music-img {
+	height: 23px;
+	width: 17px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+}
+
+#footer-label-heart {
+	height: 23px;
+	width: 23px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+}
+
+.footer-buttons {
+    float: right;
+    background: rgba(255,255,255,.2);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.footer-button {
+    border-radius: 100px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin: 4px;
+    margin-top: 5px;
+    border: rgba(255,255,255,.6) 2px solid;
+    opacity: 0.4;
+    cursor: pointer;
+    -webkit-transition: .5s; transition: .5s;
+}
+
+.footer-button:hover {
+    -webkit-transition: .5s; transition: .5s;
+    opacity: .7;
+}
+
+.footer-button:active {
+    opacity: 1;
+    -webkit-transition: .25s; transition: .25s;
+}
+
+#background1 {
+    background: rgb(41,215,243);
+}
+
+#background2 {
+    background: rgb(247,103,48);
+}
+
+#background3 {
+    background: rgb(23,61,95);
+}
+
+.currentBackground {
+    opacity: 1;
+}
+
+.currentBackground:hover {
+    opacity: 1;
+}
+
+.head {
+	height: 17%;
+	width: 100%;
+	margin-top: 4px;
+	box-sizing: border-box;
+}
+
+#head-label {
+	background-color: rgba(255, 255, 255, .2);
+	height: 99%;
+	border-radius: 1000px;
+	width: 35%;
+	margin-left: 392px; 
+	text-align: center;
+	cursor: pointer;
+	color: rgba(255, 255, 255, .8);
+	float: left;
+	text-shadow: 0px 3px 6px rgba(0, 0, 0, .3);
+	border-bottom: 1px solid rgba(255, 255, 255, .0);
+	border-right: 1px solid rgba(255, 255, 255, .0);
+  -webkit-transition: 1s; transition: 1s;
+}
+
+
+#head-label:hover{
+	background: rgba(255,255,255,0.25);
+	color: rgba(255, 255, 255, 1);
+  -webkit-transition: 1s; transition: 1s;
+}
+
+#head-label:active{
+	background: rgba(255,255,255,0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	border-right: 1px solid rgba(255, 255, 255, .3);
+  -webkit-transition: 0s; transition: 0s;
+}
+
+.head-label-text {
+	margin-top: 24px;
+	font-size: 52px;
+}
+
+.head-bottons {
+	width: 19%;
+	padding-left: 10%;
+	float: right;
+	padding-top: 32px;
+}
+
+.head-botton {
+	height: 53px;
+	width: 53px;
+	border-radius: 100px;
+	margin-left: 10%;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, .0);
+	float: left;
+	opacity: .6;
+  -webkit-transition: 1s; transition: 1s;
+}
+
+.head-botton:hover{
+	opacity: 1;
+}
+
+.head-botton:active {
+  -webkit-transition: .05s; transition: .05s;
+}
+
+#index:hover {
+	background: rgba(86, 175, 193, .8);
+}
+
+#index:active {
+	background: rgba(86, 175, 193, .2);
+	border: 1px solid rgba(86, 175, 193, .8);
+}
+
+#statistics:hover {
+	background: rgba(0, 255, 190, .8);
+}
+
+#statistics:active {
+	background: rgba(0, 255, 190, .2);
+	border: 1px solid rgba(0, 255, 190, .8);
+}
+
+#help:hover {
+	background: rgba(204, 204, 204, .8);
+}
+
+#help:active {
+	background: rgba(204, 204, 204, .2);
+	border: 1px solid rgba(204, 204, 204, .8);
+}
+
+
+#index-img {
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+#diagram-img {
+	margin-left: 28%;
+	margin-top: 26%;
+	height: 50%;
+}
+
+#question-img {
+	margin-left: 28%;
+	margin-top: 19%;
+	width: 45%;
+	height: 65%;
+}
+
+.container {
+	height: 676px;
+	width: 100%;
+}
+
+.side-container {
+	width: 19%;
+	height: 676px;
+	background-color: rgba(255, 255, 255, .2);
+	float: left;
+	box-sizing: border-box;
+	padding: 0 1.04%;
+}
+
+.left-side-radius {
+	border-radius: 20px;
+}
+
+.left-title {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+	padding: 3% 0 2%;
+	text-align: center;
+}
+
+.left-buttons {
+	float: left;
+	width: 100%;
+	padding: 3% 0;
+	color: rgb(86, 175, 193);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.left-button {
+	font-size: 18px;
+	border-radius: 2000px;
+	cursor: pointer;
+	padding: 1%;
+	padding-left: 25%;
+}
+
+.left-button:hover {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.left-button:active {
+	color: rgba(147,147,147,1);
+}
+
+.top-list {
+	margin-top: 174px;
+	width: 206px;
+	margin-left: -13px;
+	color: white;
+	font-size: 12px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+ul.hr {
+	margin-top: 5px;
+	margin-left: -40px;
+	background-color: rgba(0, 0, 0, .2);
+	cursor: pointer;
+}
+
+ul.hr:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+ul.hr:active {
+	background-color: rgba(0, 0, 0, .4);
+}
+
+ul.hr li {
+    display: inline;
+}
+
+
+ul.hr li.top-list-author {
+	color: #56afc1;
+}
+
+ul.hr li.top-list-name {
+	color: #ffa84d;
+}
+
+.central-container {
+	height: 100%;
+	width: 61.8%;
+	margin: 0 0.1%;
+	float: left;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.right-side-radius {
+	border-radius: 20px;
+}
+
+.right-buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.sign_in{
+	font-size: 24px;
+	color: rgb(212,212,212);
+}
+
+
+.sign_in, .join_us{
+	padding: 3% 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+}
+
+input {
+	border-radius: 8px;
+	color: rgb(86, 175, 193);
+	background: rgba(111,111,111,.5);
+	font-size: 17px;
+	font-family: verdana;
+}
+
+#username, #password{
+	width: 70%;
+}
+
+
+#sign_in-button{
+	margin-top: 2%;
+	padding: 2%;
+	cursor: pointer;
+	color: white;
+	border-radius: 2000px;
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+}
+
+#join_us-button{
+	padding: 2%;
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+	border-radius: 100px;
+}
+
+#sign_in-button:hover,#join_us-button:hover{
+	background: rgba(255, 255, 255, .2);
+}
+
+#sign_in-button:active,#join_us-button:active{
+	background: rgba(255, 255, 255, .15);
+	border-top: 1px solid rgba(255, 255, 255, .2);
+	margin-bottom: -1px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0);
+}
+
+.bottom-footer {
+	margin-top: 12px;
+}

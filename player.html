@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/player.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/trackList.js"></script>
+	<script type="text/javascript" src="js/player-general.js"></script>
+	<script type="text/javascript" src="js/play_tracks.js"></script>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<title>Music U Love</title>
+</head>
+<body onload="setDefaultPlayer()" onkeydown="playerControl(event)">
+	<div class="footer">
+		<div class ="footer-label">
+			<img id="music-img" src="css/img/music-img.png" alt="hkjhkj"/>U<img id="footer-label-heart" src="css/img/footer-heart.png" alt="jknkjnkjn"/>
+		</div>
+        <div class="footer-buttons">
+            <div class="footer-button" id="background1"></div>
+            <div class="footer-button" id="background2"></div>
+            <div class="footer-button" id="background3"></div>
+        </div>
+	</div>
+	<div class="head">
+		<div id="head-label">
+			<div class="head-label-text">Music You Love</div>
+		</div>
+		<div class = "head-bottons">			
+			<a href="index.html">
+				<div id="index" class ="head-botton" title="home">
+					<img id="index-img" src="css/img/home.png" alt="index"/>
+				</div>
+			</a>
+			
+			<a href="statistics.html">
+				<div id="statistics" class ="head-botton" title="statistics">
+					<img id="diagram-img" src="css/img/diagram.png" alt="statistics"/>
+				</div>
+			</a>
+			<a href="help.html">
+				<div id="help" class ="head-botton" title="help">
+					<img id="question-img" src="css/img/question.png" alt="help" />
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="side-container left-side-radius">
+			<div class="left-title">
+				The most <br>
+				favorite tracks
+			</div>
+			<div class="left-buttons">
+				<div class="left-button">for all time</div>
+				<div class="left-button">for the month</div>
+				<div class="left-button">for the week</div>
+			</div>
+			<ol class="top-list">
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						VillaNaranjos 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Granadella (Original Mix)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">Moguai</li>
+					<li>-</li>
+					<li class="top-list-name">Optinuum (Original Mix)</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Andy Caldwell Feat. Lisa Donnelly
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Melody Like A Drum (Audio Junkies Dub)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Above & Beyond Vs. Max Graham & Ana Criado
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Anphonic Matters (Estiva & Daniel Kandi Mashup)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						The Blizzard & Daniel Van Sand Feat. Julie Thompson 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Made For You (Gal Abutbul Remix)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						VillaNaranjos 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Granadella (Original Mix)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">Moguai</li>
+					<li>-</li>
+					<li class="top-list-name">Optinuum (Original Mix)</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Andy Caldwell Feat. Lisa Donnelly
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Melody Like A Drum (Audio Junkies Dub)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						Above & Beyond Vs. Max Graham & Ana Criado
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Anphonic Matters (Estiva & Daniel Kandi Mashup)
+					</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="hr">
+					<li class="top-list-author">
+						The Blizzard & Daniel Van Sand Feat. Julie Thompson 
+					</li>
+					<li>-</li>
+					<li class="top-list-name">
+						Made For You (Gal Abutbul Remix)
+					</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div class="central-container">
+			<div class="buttons-container">
+				<div class="leaf-styles-button" id="prev-styles-button">
+					<img id="prev-styles-button-img" src="css/img/arrow-left.png" alt="next"/>
+				</div>	
+				<div id = "Trance" class="central-button" onclick="showTracklist('Trance', 4)">Trance</div>
+				<div id = "House" class="central-button" onclick="showTracklist('House', 1)">House</div>
+				<div id = "Club" class="central-button" onclick="showTracklist('Club', 0)">Club</div>
+				<div id = "ChillOut" class="central-button" onclick="showTracklist('ChillOut', 0)">ChillOut</div>
+				<div id = "Ambient" class="central-button" onclick="showTracklist('Ambient', 1)">Ambient</div>
+				<div id = "Trap" class="central-button" onclick="showTracklist('Trap', 1)">Trap</div>
+				<div class="leaf-styles-button" id="next-styles-button">
+					<img id="next-styles-button-img" src="css/img/arrow-right.png" alt="next"/>
+				</div>
+			</div>
+			<div class="buttons-container buttons-container2">
+				<div class="central-text">Sort</div>
+				<div id="central-button-sort-date">by date</div>
+				<div class="central-text sorts-border"></div>
+				<div id="central-button-sort-hearts">by hearts</div>
+				<div class="central-button" id ="add_track">
+					<div class="plus">+</div>Add new
+				</div>
+			</div>
+			<div class="content">
+				<div class="player">
+					<div class="author_name">
+						<div class="author">
+							<div id="author-text">	
+							</div>
+						</div>
+						<div id="dash">
+							—
+						</div>
+						<div class="name">
+							<div id="name-text">
+							</div>
+						</div>
+					</div>
+					<audio id="player-test" onloadedmetadata="mDur()" ontimeupdate="mPlay()" onended="changeTrack()">
+						Ваш браузер не поддерживает теги audio! Обновите версию браузера!
+					</audio>
+					<div class="interface">
+						<div id="play" onclick="clickPlay()">
+							<div class="play-text">
+								►
+							</div>
+						</div>
+						<div id="pause" onclick="clickPause()">
+							<div class="pause-text">
+								▌▌
+							</div>
+						</div>
+						<input id="dur" type="range" name="rng" value="0" min="0" step="0.001" onmousedown="disconnectDuration()" onclick="mSet()" onmouseup="connectDuration()">
+						<div id="time" >
+							00:00
+						</div>
+						<input type="range" min="0" max="100" value="50" id="vertical" onchange="changeVolume()">
+						<div id="volumeLevel" class="unmuted" onclick="mute_unmute()">
+						50%
+						</div>
+						<!--
+						<div class="volume">
+							<div class="volumeButton" id="volumeButton-plus" onclick="volumeUp()">
+							</div>
+							<div class="volumeButton" id="volumeButton-minus" onclick="volumeDown()">
+							</div>
+						</div>
+						-->
+						<div class="player-heart">
+							<img id="player-heart-img" class="player-click" src="css/img/player-heart.png" alt="heart"/>	
+						</div>
+						<div class="player-info">
+							<img id="player-info-img" class="player-click" src="css/img/player-info.png" alt="info"/>	
+						</div>
+						<div class="player-claim">
+							<img id="player-claim-img" class="player-click" src="css/img/player-claim.png" alt="claim"/>
+						</div>
+					</div>
+				</div>
+				<div class="tracklist">
+					<div id="tracklist-Trance">
+					</div>
+					<div id="tracklist-House">
+					</div>
+					<div id="tracklist-Club">
+					</div>
+					<div id="tracklist-ChillOut">
+					</div>
+					<div id="tracklist-Ambient">
+					</div>
+					<div id="tracklist-Trap">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="side-container right-side-radius ">
+			<div class= "right-buttons">
+				<div class="sign_in" onkeydown="antiPlayerControl(event.keyCode)" onkeyup="antiPlayerControlOff(event.keyCode)">
+					Account name
+					<input maxlength = 25 id="username"/>
+					Password
+					<input maxlength = 25 id="password" type="password" />
+					<div id="sign_in-button">Sign in</div>
+				</div>
+				<div class="join_us">
+					<a href="registration.html">
+						<div id="join_us-button">Join us</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer bottom-footer">
+
+	</div>
+</body>
+</html>

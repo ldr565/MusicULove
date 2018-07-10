@@ -1,0 +1,31 @@
+.content {
+	margin-top: 20px;
+	height: 596px;
+	text-align: center;
+	padding: 20px;
+}
+
+#help {
+	background: rgba(204, 204, 204, .4);
+	border: 1px solid rgba(204, 204, 204, .8);
+	opacity: 1;
+	cursor: default;
+}
+
+.help-place {
+	height: 580px;
+	color: white;
+	background: rgba(204, 204, 204, .1);
+	border-radius: 50px 0;
+	font-size: 22px;
+	overflow: auto;
+}
+
+h1 {
+	color: rgb(204, 204, 204);
+	margin: 10px 300px;
+}
+
+.help-place > ul {
+	text-align: left;
+}
